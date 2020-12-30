@@ -18,4 +18,6 @@ public class CreateLabResult {
     private String comments;
     @NotNull
     private TestStatus result;
+
+
 }

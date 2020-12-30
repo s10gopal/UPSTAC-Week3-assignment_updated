@@ -201,7 +201,6 @@ class ConsultationControllerTest {
     if (createLabResult.getResult().equals(TestStatus.POSITIVE)) {
       createConsultationRequest.setComments("Home Quarantine");
       createConsultationRequest.setSuggestion(DoctorSuggestion.HOME_QUARANTINE);
-
     } else {
       createConsultationRequest.setComments("Ok");
       createConsultationRequest.setSuggestion(DoctorSuggestion.NO_ISSUES);
